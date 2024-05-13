@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2024-05-07T03:03:16.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="tMjVuoEsvLqE4HiBZsNq" version="24.3.1" type="google">
+  <diagram name="Halaman-1" id="QQJY64Q8sHxB7Z1hKhaW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--1" value="hubungan 1 arah 2 arah dan kardinalitas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--2" value="admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--5" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OXcNlBu-nfqLGSN5R1A--2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="400" as="sourcePoint" />
+            <mxPoint x="260" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="520" />
+              <mxPoint x="150" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--6" value="mengelola" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="OXcNlBu-nfqLGSN5R1A--9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--8" value="1.N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--9" value="barang" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--11" value="dipinjam" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.168;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OXcNlBu-nfqLGSN5R1A--9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--12" value="1.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--13" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="OXcNlBu-nfqLGSN5R1A--14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="300" as="sourcePoint" />
+            <mxPoint x="280" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="440" />
+              <mxPoint x="200" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--14" value="siswa/user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--15" value="mengelola data peminjam" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--19" value="1.N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="438" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--20" value="kepsek" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--21" value="1.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="520" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OXcNlBu-nfqLGSN5R1A--22" value="laporan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
